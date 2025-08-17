@@ -96,7 +96,7 @@
   <!-- Right side: Profile -->
   <div class="w-full lg:w-1/3 flex flex-col gap-6">
     <div class="bg-gradient-to-b from-[#2D2300CC] via-[#000000B3] to-[#000000B3] rounded-2xl shadow-lg p-6 text-[#E7AC08] flex flex-col items-center min-h-[640px]">
-      <img src="{{ asset('user.jpg') }}" alt="User profile" class="w-20 h-20 rounded-full mb-3 border-2 border-yellow-500 object-cover" />
+      <img src="{{ asset('user.JPG') }}" alt="User profile" class="w-20 h-20 rounded-full mb-3 border-2 border-yellow-500 object-cover" />
       <h3 class="text-2xl font-semibold mb-1">{{ Auth::user()->name ?: Auth::user()->customer_id }}</h3>
       <p class="opacity-70 mb-1">Quantum ID. {{ Auth::user()->id }}</p>
       <p class="opacity-70 mb-4">Member Since {{ Auth::user()->created_at->format('F j, Y') }}</p>
