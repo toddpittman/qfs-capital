@@ -12,7 +12,7 @@
     <!-- Total Balances -->
     <div class="bg-gradient-to-b from-[#2D2300CC] via-[#000000B3] to-[#000000B3] rounded-2xl shadow-lg p-6 text-[#E7AC08] min-h-[350px] flex flex-col justify-center">
       <div class="text-center">
-        <p class="text-5xl font-bold">${{ number_format($payoutAmount ?? 0, 2) }}</p>
+        <p class="text-3xl font-bold">${{ number_format($payoutAmount ?? 0, 2) }}</p>
         <p class="opacity-80 mt-2 text-3xl">Total Balance</p>
       </div>
 
