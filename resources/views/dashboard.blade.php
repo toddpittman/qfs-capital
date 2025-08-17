@@ -94,7 +94,7 @@
                 <tr class="border-b border-yellow-700 hover:bg-yellow-700/30">
                   <td class="py-2 px-3">
                     <span class="font-semibold
-                      @if(strtolower($transaction->status) === 'completed') text-yellow-500
+                      @if(strtolower($transaction->status) === 'completed') text-green-500
                       @elseif(strtolower($transaction->status) === 'pending') text-yellow-400
                       @elseif(strtolower($transaction->status) === 'failed') text-red-500
                       @else text-yellow-300
